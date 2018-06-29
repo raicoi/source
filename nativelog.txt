@@ -1,4 +1,4 @@
-﻿Set run directory to C:\Program Files (x86)\Minecraft
+﻿asdfSet run directory to C:\Program Files (x86)\Minecraft
 Native Launcher Version: 1365
 Operating System: Windows 10 Home
 Application Hash: 9010a3b83eb5eaf5e0eb6d367effde64419c2a3f
