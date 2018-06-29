@@ -1,0 +1,21 @@
+<?php
+        if(!empty($_POST['ID']) && !empty($_POST['PW'])) {
+                $db = mysqli_connect('localhost', '20184589', '2018489', 'DB_20184589');
+                $id = $_POST['ID'];
+                $pw = $_POST['PW'];
+                $sql = "SELECT * FROM user_info where id='".$id."' a
+<?php
+        if(!empty($_POST['ID']) && !empty($_POST['PW'])) {
+<?php
+        if(!empty($_POST['ID']) && !empty($_POST['PW'])) {
+                $db = mysqli_connect('localhost', '20184589', '20184589', 'DB_20184589');
+                $id = $_POST['ID'];
+                $pw = $_POST['PW'];
+                $sql = "SELECT * FROM user_info where id='".$id."' and pw='".$pw."'";
+                $result = mysqli_query($db,$sql);
+        }
+        if(mysqli_num_rows($result) == 1){
+                mysqli_close($db);
+                echo "<script>alert('Login Success');</script>";
+        }
+?>
